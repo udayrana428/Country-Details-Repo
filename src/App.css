@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{padding: 0;margin: 0;}
+.neuform {
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(200, 15%, 8%);
+  /* background: linear-gradient(145deg, #f0f0f0, #cacaca); */
+  box-shadow:  5px 5px 10px #cccccc,
+             -5px -5px 10px #f4f4f4;
+}
+.neuform2{
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: hsl(209, 23%, 22%);
+  color: hsl(0, 0%, 100%);
+  /* background: linear-gradient(145deg, #f0f0f0, #cacaca); */
+  box-shadow: 20px 20px 60px #292828, -20px -20px 60px #2e2e2e;
+}
+.customBcNLight{
+  background-color: hsl(0, 0%, 98%);
+}
+.customBcNDark{
+  /* background-color: hsl(207, 26%, 17%); */
+  background-color: hsl(209, 23%, 22%);
+}
+.customBcLight{
+  color: hsl(200, 15%, 8%);
+  background-color: hsl(0, 0%, 98%);
+}
+.customBcDark{
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(207, 26%, 17%);
+}
